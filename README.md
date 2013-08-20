@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bednar/JSON2.js.png?branch=master)](https://travis-ci.org/bednar/JSON2.js) [JSON2.js](https://github.com/douglascrockford/JSON-js)
+[![Build Status](https://api.travis-ci.org/bednar/JSON2.js.png?branch=master)](https://travis-ci.org/bednar/JSON2.js) [JSON2.js](https://github.com/douglascrockford/JSON-js)
 ======
 
 ### Supported Versions
