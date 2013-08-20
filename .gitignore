@@ -1,1 +1,7 @@
+# Idea Files #
+.idea/
+*.iml
+atlassian-ide-plugin.xml
+
+# Maven Files #
 target/

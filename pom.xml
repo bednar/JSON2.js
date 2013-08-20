@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--suppress MavenRedundantGroupId -->
+    <groupId>com.github.bednar</groupId>
+    <artifactId>json2.js</artifactId>
+    <version>2013-05-26</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <artifactId>maven-parent</artifactId>
+        <groupId>com.github.bednar</groupId>
+        <version>1-SNAPSHOT</version>
+    </parent>
+
+    <name>JSON2.js Maven Dependency</name>
+
+    <url>https://github.com/bednar/JSON2.js</url>
+
+    <licenses>
+        <license>
+            <name>New BSD License</name>
+            <url>https://raw.github.com/bednar/JSON2.js/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:bednar/JSON2.js.git</connection>
+        <developerConnection>scm:git:git@github.com:bednar/JSON2.js.git</developerConnection>
+        <url>git@github.com:bednar/JSON2.js.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>bednar</id>
+            <name>Jakub Bednář</name>
+            <email>jakub.bednar@gmail.com</email>
+        </developer>
+    </developers>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+</project>
