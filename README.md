@@ -12,8 +12,8 @@
 
     <dependency>
         <groupId>com.github.bednar</groupId>
-            <artifactId>json2.js</artifactId>
-            <version>2013-05-26</version>
+        <artifactId>json2.js</artifactId>
+        <version>2013-05-26</version>
     </dependency>
 
 ### Reference in HTML
