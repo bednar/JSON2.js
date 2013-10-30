@@ -23,4 +23,8 @@
     
 ### Repository
 
-Will be in Maven Central Repository.
+    <repository>
+        <id>bednar-public</id>
+        <name>Bednar Public Repository</name>
+        <url>http://nexus-bednar.rhcloud.com/nexus/content/groups/public/</url>
+    </repository>

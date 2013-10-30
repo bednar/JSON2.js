@@ -42,24 +42,14 @@
         </developer>
     </developers>
 
-    <build>
+    <repositories>
 
-        <plugins>
+        <repository>
+            <id>bednar-public</id>
+            <name>Bednar Public Repository</name>
+            <url>http://nexus-bednar.rhcloud.com/nexus/content/groups/public/</url>
+        </repository>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
-        </plugins>
-
-    </build>
+    </repositories>
 
 </project>
